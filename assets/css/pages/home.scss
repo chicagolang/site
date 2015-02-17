@@ -1,0 +1,178 @@
+section.upcoming {
+  h2 {
+    margin-bottom: 0px;
+  }
+
+  .presenter {
+    color: #555;
+  }
+
+  p {
+    margin: 1em 0;
+  }
+}
+
+section.past-talks {
+  .presenter {
+    color: #555;
+  }
+}
+
+section.event {
+  h2 {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    margin-bottom: 0.5em;
+  }
+
+  .block {
+    margin-bottom: 1.5em;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  p.not-available {
+    color: #999;
+  }
+
+  p.meta {
+    margin-bottom: 1em;
+  }
+
+  i.fa {
+    color: #555;
+  }
+}
+
+section.contact {
+  p {
+    margin: 1em 0;
+  }
+}
+
+.date {
+  position: relative;
+  padding: 0 0 30px 65px;
+
+  i {
+    position: absolute;
+    top: 5px; left: 10px;
+    color: rgba(0,0,0,0.15);
+    display: block;
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .time {
+    display: block;
+    font-weight: 400;
+  }
+}
+
+.location {
+  position: relative;
+  padding: 0 0 30px 65px;
+
+  i {
+    position: absolute;
+    top: 3px; left: 10px;
+    color: rgba(0,0,0,0.15);
+    display: block;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    text-align: center;
+  }
+}
+
+.map {
+  opacity: 0.5;
+}
+
+.rsvp {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: color 0.05s linear, box-shadow 0.05s linear;
+     -moz-transition: color 0.05s linear, box-shadow 0.05s linear;
+          transition: color 0.05s linear, box-shadow 0.05s linear;
+  color: #E70805;
+  box-shadow: 0 5px 0 0 #6BD2E1;
+
+  &:hover {
+    color: #6BD2E1;
+    box-shadow: 0 5px 0 0 #E70805;
+  }
+}
+
+.talk {
+  margin: 0 0 40px;
+  -webkit-transition: box-shadow 0.05s linear;
+     -moz-transition: box-shadow 0.05s linear;
+          transition: box-shadow 0.05s linear;
+
+  &:last-child { margin: 0; }
+
+  .title {
+    float: left;
+    width: 50%;
+    -webkit-transition: margin-left 0.1s linear;
+       -moz-transition: margin-left 0.1s linear;
+            transition: margin-left 0.1s linear;
+  }
+
+  .coordinates {
+    width: 45%;
+    float: right;
+
+    .venue {
+      color: #999;
+    }
+  }
+
+  &:hover {
+    -webkit-transition: box-shadow 0.1s linear 0.15s;
+       -moz-transition: box-shadow 0.1s linear 0.15s;
+            transition: box-shadow 0.1s linear 0.15s;
+    box-shadow: inset 5px 0 0 0 #6BD2E1;
+
+    a { color: #E70805; }
+
+    .title {
+      -webkit-transition: margin-left 0.05s linear;
+         -moz-transition: margin-left 0.05s linear;
+              transition: margin-left 0.05s linear;
+      margin-left: 25px;
+    }
+
+    h5 a { color: #6BD2E1; }
+  }
+}
+
+.sponsors {
+  .sponsor {
+    display: block;
+    padding: 0 0 30px 125px;
+    background: left top no-repeat url("/assets/images/devmynd.jpeg");
+    background-size: 101px 80px;
+    color: inherit;
+
+    h3 {
+      -webkit-transition: color .2s;
+         -moz-transition: color .2s;
+              transition: color .2s;
+    }
+
+    &:hover {
+      h3 { color: #E70805; }
+    }
+  }
+}
+
+.cols-2 .col-1.sponsors { padding: 0; }

@@ -1,0 +1,10 @@
+title: ChicaGoLang
+email: your-email@domain.com
+baseurl: ""
+url: "http://yourdomain.com"
+github_username:  chicagolang
+meetup_url: "http://www.meetup.com/ChicaGoLang"
+markdown: kramdown
+permalink: /events/:title
+sass:
+  sass_dir: assets/css

@@ -1,0 +1,28 @@
+header {
+  text-align: center;
+  padding: 65px 0 60px;
+  max-width: 960px;
+  margin: 0 auto;
+
+  .logo {
+    display: block;
+    height: 125px;
+    width: 150px;
+    margin: 0 auto 20px;
+    padding: 65px 0 0; 
+    background: center top no-repeat url("/assets/images/go.png");
+    background-size: 100px;
+  }
+
+  .flag {
+    display: block;
+    width: 150px;
+    height: 60px;
+    background: no-repeat center url("/assets/images/flag.svg");
+  }
+
+  p {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}

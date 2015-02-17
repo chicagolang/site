@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import "base/reset";
+@import "base/base";
+@import "base/type";
+
+// Parts
+@import "parts/header";
+@import "parts/nav";
+@import "parts/footer";
+
+// Pages
+@import "pages/home";
+
+// Media
+@import "media/iphone";
+
+// Clears
+@import "base/clears";
+

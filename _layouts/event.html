@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<section class="event">
+  <h2>{{ page.title }}</h2>
+  <p class="meta">
+    {{ page.event.date }} &bull; <a href="{{ page.author_link }}" target="_blank">{{ page.author }}</a> &bull; {{ page.venue.name }}
+  </p>
+
+  <div class="block">
+    {{ content }}
+  </div>
+
+  <div class="block">
+    <h3>Meetup</h3>
+    {% if page.meetup_id %}
+      <a href="{{ site.meetup_url }}/events/{{ page.meetup_id }}" target="_blank"><i class="fa fa-group"></i> Visit Meetup.com</a>
+    {% else %}
+      <p class="not-available">Not available</p>
+    {% endif %}
+  </div>
+
+  <div class="block">
+    <h3>Slides</h3>
+    {% if page.slides_url %}
+      <a href="http://go-talks.appspot.com/{{ page.slides_url }}" target="_blank"><i class="fa fa-external-link"></i> View presentation slides</a>
+    {% else %}
+      <p class="not-available">Not available.</p>
+    {% endif %}
+  </div>
+
+  <div class="block">
+    <h3>Video</h3>
+    {% if page.youtube_id %}
+      <iframe width="960" height="600" src="http://www.youtube.com/embed/{{ page.youtube_id }}" frameborder="0" allowfullscreen showinfo="1"></iframe>
+    {% else %}
+      <p class="not-available">Not available.</p>
+    {% endif %}
+  </div>
+
+  <div class="block">
+    <h3>Code Examples</h3>
+    {% if page.github_repo %}
+      <a href="{{ page.github_repo }}" target="_blank"><i class="fa fa-github"></i> {{ page.github_repo }}</a>
+    {% else %}
+      <p class="not-available">Not available</p>
+    {% endif %}
+  </div>
+</section>

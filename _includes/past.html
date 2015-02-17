@@ -1,0 +1,16 @@
+<section class="past-talks">
+  <h4>Past Events</h4>
+
+  {% for post in site.categories.past %}
+    <div class="talk">
+      <div class="title">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <h5 class="presenter">by <a {% if post.author_link %} href="{{ post.author_link }}" target="_blank" {% else %} href="#" {% endif %}>{{ post.author }}</a></h5>
+      </div>
+      <div class="coordinates">
+        <h5>{{ post.event.date }}</h5>
+        <h5 class="venue">@ {{ post.venue.name }}</h5>
+      </div>
+    </div>
+  {% endfor %}
+</section>
