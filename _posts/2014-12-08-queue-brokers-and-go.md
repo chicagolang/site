@@ -13,7 +13,7 @@ event:
   time: 6:30 PM
 meetup_id: 215418722
 youtube_id: -S0-qgl8120
-github_repo: github.com/chicagolang/dec-2014
+github_repo: http://github.com/chicagolang/dec-2014
 slides_url: github.com/chicagolang/dec-2014/rmq.slide
 categories:
   - events

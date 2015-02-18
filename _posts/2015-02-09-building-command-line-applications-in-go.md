@@ -18,7 +18,6 @@ categories:
   - events
   - past
 ---
-
 Go is ideally suited for developing command line applications. This discussion
 will cover the basic techniques used for parsing arguments, file IO, process
 management, as well as the overall structure of an application. Practical

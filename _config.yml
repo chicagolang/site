@@ -1,10 +1,10 @@
 title: ChicaGoLang
-email: your-email@domain.com
+description: This is a group for anyone interested in using Google's Go programming language for fun and profit.
 baseurl: ""
-url: "http://yourdomain.com"
+url: http://chicagolang.com
 github_username:  chicagolang
-meetup_url: "http://www.meetup.com/ChicaGoLang"
+meetup_url: http://www.meetup.com/ChicaGoLang
+permalink: /:title
 markdown: kramdown
-permalink: /events/:title
 sass:
   sass_dir: assets/css

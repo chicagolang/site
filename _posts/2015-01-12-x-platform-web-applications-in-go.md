@@ -13,6 +13,7 @@ event:
   time: 6:30 PM
 meetup_id: 216035402
 slides_url: github.com/chicagolang/jan-2015/talk.slide
+github_repo: http://github.com/chicagolang/jan-2015
 categories:
   - events
   - past
