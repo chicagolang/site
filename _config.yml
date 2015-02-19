@@ -8,3 +8,5 @@ permalink: /:title
 markdown: kramdown
 sass:
   sass_dir: assets/css
+google_analytics:
+  tracking_id: UA-59928226-1
