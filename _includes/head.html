@@ -8,4 +8,7 @@
   <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
   <link href="/assets/images/icon.ico" rel="shortcut icon">
   <title>{{ page.title }} - {{ site.title }}</title>
+  {% if site.google_analytics %}
+    {% include ga.html %}
+  {% endif %}
 </head>
