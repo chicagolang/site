@@ -28,9 +28,14 @@ section.event {
   }
 
   .block {
-    margin-bottom: 1.5em;
-    &:last-child {
-      margin-bottom: 0;
+    margin: 0 0 60px;
+  }
+
+  .cols-2 {
+    margin: 0 0 30px;
+
+    h4 {
+      margin: 0;
     }
   }
 
@@ -43,13 +48,31 @@ section.event {
   }
 
   i.fa {
-    color: #555;
+    color: #aaa;
+    margin: 0 5px 0 0;
+    font-size: 14px;
+  }
+
+  i.fa.fa-github {
+    font-size: 17px;
   }
 }
 
 section.contact {
+  max-width: 100%;
+  text-align: center;
+  background: #F8F8F9;
+  border: none;
+  padding: 80px 0;
+
+  h4 {
+    margin: 0 0 0.5em;
+  }
+
   p {
-    margin: 1em 0;
+    margin: 0 auto 1em;
+    padding: 0 30px;
+    max-width: 600px;
   }
 }
 
@@ -137,9 +160,9 @@ section.contact {
   }
 
   &:hover {
-    -webkit-transition: box-shadow 0.1s linear 0.15s;
-       -moz-transition: box-shadow 0.1s linear 0.15s;
-            transition: box-shadow 0.1s linear 0.15s;
+    -webkit-transition: box-shadow 0.1s linear 0.05s;
+       -moz-transition: box-shadow 0.1s linear 0.05s;
+            transition: box-shadow 0.1s linear 0.05s;
     box-shadow: inset 5px 0 0 0 #6BD2E1;
 
     a { color: #E70805; }
@@ -155,18 +178,64 @@ section.contact {
   }
 }
 
+
+section.info {
+  position: relative;
+  max-width: 100%;
+  background: #6BD2E1;
+  border: none;
+  padding: 80px 0;
+  color: #fff;
+  text-align: center;
+
+  &:before {
+    position: absolute;
+    top: 0; left: 50%;
+    margin-left: -11px;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 11px 0 11px;
+    border-color: #F8F8F9 transparent transparent transparent;
+  }
+
+  &.cols-2 .col-1 {
+    width: 50%;
+    padding: 0px;
+
+  }
+
+  .inner {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  h4 {
+    margin: 0 0 1em;
+  }
+}
+
 .sponsors {
   .sponsor {
     display: block;
-    padding: 0 0 30px 125px;
-    background: left top no-repeat url("/assets/images/devmynd.jpeg");
-    background-size: 101px 80px;
+    padding: 0 0 0 85px;
+    background: center left no-repeat url("/assets/images/dm.png");
+    background-size: 70px;
     color: inherit;
+    width: 200px;
+    margin: 0 auto;
+    text-align: left;
 
     h3 {
       -webkit-transition: color .2s;
          -moz-transition: color .2s;
               transition: color .2s;
+    }
+
+    h5 {
+      line-height: 1.2em;
     }
 
     &:hover {
@@ -176,3 +245,20 @@ section.contact {
 }
 
 .cols-2 .col-1.sponsors { padding: 0; }
+
+.link {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+  -webkit-transition: color 0.05s linear, box-shadow 0.05s linear;
+     -moz-transition: color 0.05s linear, box-shadow 0.05s linear;
+          transition: color 0.05s linear, box-shadow 0.05s linear;
+  color: #E70805;
+  box-shadow: 0 5px 0 0 #6BD2E1;
+
+  &:hover {
+    color: #6BD2E1;
+    box-shadow: 0 5px 0 0 #E70805;
+  }
+}

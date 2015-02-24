@@ -1,3 +1,15 @@
+@media only screen and (min-width: 550px) and (max-width: 990px) {
+  section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .sponsors .sponsor {
+    width: 100%;
+    box-sizing: border-box;
+    background-position: left top;
+  }
+}
+
 @media only screen and (min-width: 550px) and (max-width: 600px) {
   .cols-2 .col-1.details {
     padding-right: 0;
@@ -11,7 +23,7 @@
   h4 { font-size: 1.1rem; opacity: 0.5; }
 
   section {
-    padding: 15px 0 40px;
+    padding: 15px 20px 40px;
   }
 
   .cols-2 .col-1 {
@@ -68,5 +80,32 @@
 
   .organizers {
     h5 { width: 50%; float: left; font-weight: 700; }
+  }
+
+  section.info {
+    padding: 50px 0 20px;
+    
+    &.cols-2 .col-1 {
+      padding: 0px;
+      margin: 0 0 40px;
+      width: 100%;
+    }
+  }
+
+  section.contact {
+    padding: 40px 0;
+  }
+
+  .sponsors .sponsor { margin: 0 auto; }
+
+  section.event {
+    .block {
+      margin: 0 0 30px;
+    }
+    .cols-2 {margin: 0; }
+
+    .cols-2 .col-1 {
+      margin: 0 0 25px;
+    }
   }
 }
