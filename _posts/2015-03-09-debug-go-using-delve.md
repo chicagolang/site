@@ -12,9 +12,11 @@ event:
   date: March 9, 2015
   time: 6:30 PM
 meetup_id: 220416695
+slides_url: github.com/chicagolang/mar-2015/delve-chicagolang/delve.slide
+github_repo: https://github.com/chicagolang/mar-2015/tree/master/delve-chicagolang/examples
 categories:
   - events
-  - upcoming
+  - past
 ---
 Learn how to debug Go applications with Delve, from the author of Delve. 
 During this talk we will cover the challenges of writing a debugger for Go, and 
