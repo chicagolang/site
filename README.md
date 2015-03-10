@@ -50,6 +50,11 @@ categories:
 Meetup topic / summary goes here.
 ```
 
+## Contact
+
+Interested in giving a talk? Great! You can reach out via [github issues](https://github.com/chicagolang/site/issues) or
+send us a meesage on [meetup.com](http://www.meetup.com/ChicaGoLang/).
+
 ## License
 
 MIT
