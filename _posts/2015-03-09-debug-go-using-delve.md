@@ -21,3 +21,5 @@ categories:
 Learn how to debug Go applications with Delve, from the author of Delve. 
 During this talk we will cover the challenges of writing a debugger for Go, and 
 then dive into how to use it to debug your own code.
+
+**Sorry, but this meetup was not recorded.**
