@@ -25,7 +25,7 @@ git push origin gh-pages
 Event is a jekyll page. Page body is an event description while YAML meta 
 hosts a bunch of necessary attributes:
 
-```
+```yml
 ---
 layout: event
 title: Event name/title goes here
@@ -53,7 +53,7 @@ Meetup topic / summary goes here.
 ## Contact
 
 Interested in giving a talk? Great! You can reach out via [github issues](https://github.com/chicagolang/site/issues) or
-send us a meesage on [meetup.com](http://www.meetup.com/ChicaGoLang/).
+send us a message on [meetup.com](http://www.meetup.com/ChicaGoLang/).
 
 ## License
 
