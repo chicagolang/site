@@ -12,9 +12,10 @@ event:
   date: April 13, 2015
   time: 6:30 PM
 meetup_id: 215418942
+youtube_id: fw7I5ABFDi4
 categories:
   - events
-  - upcoming
+  - past
 ---
 A robotic telescope that serves its image and controls on the open internet: sounds 
 like a terrible idea, right? Well, Chris Agocs, with some help from the South 
