@@ -9,7 +9,9 @@ Quick start:
 ```
 gem install jekyll
 git clone git@github.com:chicagolang/site.git
-jekyll server
+cd site
+bundle install
+rake server
 ```
 
 ## Publish
@@ -17,7 +19,7 @@ jekyll server
 Push to Github Pages:
 
 ```
-git push origin gh-pages
+rake publish
 ```
 
 ## Event Structure
