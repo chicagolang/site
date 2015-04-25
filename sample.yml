@@ -1,0 +1,19 @@
+---
+layout: event
+title: Title Goes Here
+author: Author Name
+author_link: Author Website / Etc
+venue:
+  name: DevMynd Studios
+  address: 2035 W. Wabansia Ave
+  instructions: 2nd Floor, enter the black door
+  directions_link: https://www.google.com/maps/place/2035+W+Wabansia+Ave,+Chicago,+IL+60647/@41.9120576,-87.6789658,17z
+event:
+  date: Month, 2015
+  time: 6:30 PM
+meetup_id: ID
+categories:
+  - events
+  - upcoming
+---
+Description Goes Here
