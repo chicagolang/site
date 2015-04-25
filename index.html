@@ -2,6 +2,9 @@
 title: Welcome
 layout: default
 ---
-{% include upcoming.html %}
+{% if categories.upcoming %}
+  {% include upcoming.html %}
+{% endif %}
+
 {% include past.html %}
 {% include contact.html %}
