@@ -10,6 +10,12 @@ section.upcoming {
   p {
     margin: 1em 0;
   }
+
+  .cols-2:last-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    margin-top: 2em;
+    padding-top: 2em;
+  }
 }
 
 section.past-talks {
