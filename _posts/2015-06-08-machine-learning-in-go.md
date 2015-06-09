@@ -13,7 +13,7 @@ event:
 meetup_id: 222224616
 categories:
   - events
-  - upcoming
+  - past
 ---
 There are not many options for machine learning in Go.
 We will discuss a few existing packages, and in true Gopher fashion,
