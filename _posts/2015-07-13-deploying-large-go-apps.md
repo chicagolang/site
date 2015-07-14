@@ -13,7 +13,9 @@ event:
 meetup_id: 222224696
 categories:
   - events
-  - upcoming
+  - past
+github_repo: github.com/chicagolang/jul-2015
+slides_url: http://chicagolang.github.io/jul-2015/
 ---
 Chris will discuss what the software engineering team at Public Good Software – 
 a social benefit enterprise in Chicago – has learned in the process of designing, 
