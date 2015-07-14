@@ -15,7 +15,7 @@ categories:
   - events
   - past
 github_repo: https://github.com/chicagolang/jul-2015
-slides_url: http://chicagolang.github.io/jul-2015/
+presentation_url: https://cgansen.github.io/sxsw-go-talk/
 ---
 Chris will discuss what the software engineering team at Public Good Software – 
 a social benefit enterprise in Chicago – has learned in the process of designing, 

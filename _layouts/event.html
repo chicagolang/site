@@ -27,7 +27,11 @@ layout: default
       {% if page.slides_url %}
         <a href="http://go-talks.appspot.com/{{ page.slides_url }}" target="_blank"><i class="fa fa-external-link"></i> View presentation slides</a>
       {% else %}
-        <p class="not-available">Not available.</p>
+        {% if page.presentation_url %}
+          <a href="{{ page.presentation_url }}" target="_blank"><i class="fa fa-external-link"></i> View presentation slides</a>
+        {% else %}
+          <p class="not-available">Not available.</p>
+        {% endif %}
       {% endif %}
     </div>
   </div>
