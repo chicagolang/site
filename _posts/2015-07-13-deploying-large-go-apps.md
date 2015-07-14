@@ -14,7 +14,7 @@ meetup_id: 222224696
 categories:
   - events
   - past
-github_repo: github.com/chicagolang/jul-2015
+github_repo: https://github.com/chicagolang/jul-2015
 slides_url: http://chicagolang.github.io/jul-2015/
 ---
 Chris will discuss what the software engineering team at Public Good Software – 
