@@ -12,6 +12,7 @@ event:
   time: 6:30 PM
 meetup_id: 222224616
 youtube_id: mRHqNrCRWug
+presentation_url: /assets/machine_learning_in_go.pdf
 categories:
   - events
   - past
