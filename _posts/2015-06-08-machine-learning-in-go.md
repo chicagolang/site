@@ -11,6 +11,7 @@ event:
   date: June 8, 2015
   time: 6:30 PM
 meetup_id: 222224616
+youtube_id: mRHqNrCRWug
 categories:
   - events
   - past
