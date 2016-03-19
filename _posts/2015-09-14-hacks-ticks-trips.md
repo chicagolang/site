@@ -13,7 +13,7 @@ event:
 meetup_id: 224626176
 categories:
   - events
-  - upcoming
+  - past
 ---
 Sterling Hankins will lead a discussion that invites input from the audience on tips 
 and techniques that they have used to become better developers. Bring your best 

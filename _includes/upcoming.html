@@ -18,7 +18,7 @@
           <h3>{{ post.venue.name }}</h3>
           <h5>
             {{ post.venue.address }}<br/>
-            {{ post.venue.instructions }}<br/>
+            {% if post.venue.instructions %}{{ post.venue.instructions }}<br/>{% endif %}
             <a class="map" href="{{ post.venue.directions_link }}" target="_blank">Directions</a>
           </h5>
         </div>
