@@ -15,7 +15,7 @@ meetup_id: 229352568
 categories:
   - events
   - upcoming
-slides_url: github.com/chicagolang/dynamic-duo-go-postgresql/blob/master/talk.slide
+slides_url: github.com/chicagolang/dynamic-duo-go-postgresql/talk.slide
 ---
 Jack Christensen, the author of the Go PostgreSQL driver pgx, will speak on building 
 PostgreSQL backed applications in Go. Topics will include how to structure the data layer, 
