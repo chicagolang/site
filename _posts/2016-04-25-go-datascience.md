@@ -10,7 +10,7 @@ venue:
   directions_link: https://www.google.com/maps?f=q&hl=en&q=661+W+Lake+St+3NE,+Chicago,+IL,+60661,+us
 event:
   date: April 26, 2015
-  time: 6:30 PM
+  time: 6:00 PM
 meetup_id: 229487034
 categories:
   - events
